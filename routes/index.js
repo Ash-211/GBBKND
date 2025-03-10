@@ -1,13 +1,22 @@
 const express = require('express');
 const router = express.Router();
 
-// Import individual module routes
+// Import module-specific routes
 const userRoutes = require('./users');
+const eventRoutes = require('./events');
+const swipeRoutes = require('./swipe');
+const chatRoutes = require('./chats');
 
-// Mount module routes
+// Mount the user routes at /api/users
 router.use('/users', userRoutes);
 
-// Future modules (e.g., events) can be added here
-// router.use('/events', require('./events'));
+// Mount the event routes at /api/events
+router.use('/events', eventRoutes);
+
+// Mount the swiping routes at /api/swipe
+router.use('/swipe', swipeRoutes);
+
+// Mount the chat routes at /api/chats
+router.use('/chats', chatRoutes);
 
 module.exports = router;
