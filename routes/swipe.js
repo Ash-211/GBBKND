@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const swipeController = require('../controllers/swipeController');
+const swipeController = require('../controllers/swipe.controller');
 
 // Record a like action
 // POST /api/swipe/like

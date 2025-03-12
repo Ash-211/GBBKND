@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const chatController = require('../controllers/chatController');
+const chatController = require('../controllers/chats.controller');
 
 // Create a new chat group (only among matched users)
 // POST /api/chats/create-group

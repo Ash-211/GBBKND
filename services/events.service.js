@@ -1,4 +1,4 @@
-const eventDb = require('../db/eventDb');
+const eventDb = require('../db/eventsdb');
 
 /**
  * Creates a new event.

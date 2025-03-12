@@ -1,5 +1,5 @@
-const chatDb = require('../db/chatDb');
-const swipeService = require('./swipeService');
+const chatDb = require('../db/chatsdb');
+const swipeService = require('./swipe.service');
 
 /**
  * Creates a new chat group among matched users.

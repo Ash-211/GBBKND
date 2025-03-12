@@ -1,4 +1,4 @@
-const eventService = require('../services/eventService');
+const eventService = require('../services/events.service');
 
 /**
  * Creates a new event.

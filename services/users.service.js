@@ -1,4 +1,4 @@
-const userDb = require('../db/userDb');
+const userDb = require('../db/usersdb');
 const crypto = require('crypto');
 const nodemailer = require('nodemailer');
 const bcrypt = require('bcrypt');

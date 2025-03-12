@@ -1,4 +1,4 @@
-const swipeService = require('../services/swipeService');
+const swipeService = require('../services/swipe.service');
 
 /**
  * Records a "like" swipe action.

@@ -1,4 +1,4 @@
-const swipeDb = require('../db/swipeDb');
+const swipeDb = require('../db/swipedb');
 
 /**
  * Records a swipe action (like or dislike) between a user and a target user.

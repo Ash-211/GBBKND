@@ -1,4 +1,4 @@
-const chatService = require('../services/chatService');
+const chatService = require('../services/chats.service');
 
 /**
  * Creates a new chat group.
